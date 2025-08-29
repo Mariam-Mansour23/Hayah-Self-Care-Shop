@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="keywords" content="hayah, care, skin, glow, makeup, skincare, hair, beauty" />
+  <meta name="description" content="This is a full care website that brings you skin, hair, and body products inspired by nature and Arabic beauty rituals." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Malak Shady, Hana Yehia, Mariam Mansour" />
+   <title>Hayah</title>
+  <link rel="stylesheet" href="css/view.css">
+  <link rel="stylesheet" href="css/haryy.css">
+  <link rel="stylesheet" href="css/new.css">
+  <div class="notification-bar">
+    <marquee>Free shipping on orders over $50 • Coming soon: Laneige lip balms!</marquee>
+  </div>
+</head>
+      <header class="header">
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <div class="header-right">
+          <input type="text" placeholder="SEARCH" class="search-box" id="searchInput"/>
+          <a href="signin.html">LOG IN</a>
+          <a href="help.html">HELP</a>
+          <a href="cart.html">SHOPPING BAG [0]</a>
+        </div>
+      </header>
+    
+      <aside class="side-menu" id="sideMenu">
+        <div class="close-btn" id="closeBtn">&times;</div>
+        <div class="logo">Hayah</div>
+        <nav class="menu-links">
+          <a href="viewAll.html">View all</a>
+          <a href="SkinCare.html">skin care</a>
+          <a href="BodyCare.html">body care</a>
+          <a href="HairCare.html">hair care</a>
+          <a href="Beauty.html">beauty</a>
+          <hr />
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="queries.html">Queries</a>
+          <a href="#" onclick="confirmLogout()">Logout</a>
+        </nav>
+      </aside>
+<header>
+    <h1>Hayah</h1>
+  </header>
+<body>
+
+  <main class="products">
+    <div class="product" data-id="1" data-name="KraveBeauty Hemp Cleanser" data-price="15">
+      <img src="photos/cskin1.jpg" class="product-img" alt="KraveBeauty Hemp Cleanser" width="300" height="300" >
+      <h3>KKraveBeauty Hemp Cleanser </h3>
+      <p>$15</p>
+      <button class="add-to-cart">Add to Bag</button>
+    </div>
+
+    <div class="product" data-id="2" data-name="La Mer Mini Moisturizer" data-price="25">
+      <img src="photos/cskin2.jpg"  class="product-img" alt="La Mer Mini Moisturizer"  width="300" height="300">
+      <h3>La Mer Mini Moisturizer</h3>
+      <p>$25</p>
+      <button class="add-to-cart">Add to Bag</button>
+    </div>
+
+    <div class="product" data-id="3" data-name="Kiehl’s Ultra Facial Cream" data-price="27">
+      <img src="photos/cskin3.jpg" class="product-img" alt="Kiehl’s Ultra Facial Cream"  width="300" height="300">
+      <h3>Kiehl’s Ultra Facial Cream</h3>
+      <p>$27</p>
+      <button class="add-to-cart">Add to Bag</button>
+    </div>
+    <div class="product" data-id="4" data-name="Caudalie Glow Serum" data-price="27">
+        <img src="photos/cskin4.jpg" class="product-img" alt="Caudalie Glow Serum"  width="300" height="300">
+        <h3>Caudalie Eclat Glow Serum</h3>
+        <p>$20</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="5" data-name="La Roche Foaming Wash" data-price="27">
+        <img src="photos/oily1.jpg" class="product-img" alt="La Roche Foaming Wash"  width="300" height="300">
+        <h3>La Roche Foaming Wash</h3>
+        <p>$12</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="6" data-name="Neutrogena Hydro Cream" data-price="27">
+        <img src="photos/oily2.jpg" class="product-img" alt="Neutrogena Hydro Cream"  width="300" height="300">
+        <h3>Neutrogena Hydro Cream</h3>
+        <p>$84</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="7" data-name="The Ordinary Hyaluronic" data-price="27">
+        <img src="photos/oily3.jpg" class="product-img" alt="The Ordinary Hyaluronic"  width="300" height="300">
+        <h3>The Ordinary Hyaluronic</h3>
+        <p>$23</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="8" data-name="Some By Mi Glow Serum" data-price="27">
+        <img src="photos/oily4.jpg" class="product-img" alt="Some By Mi Glow Serum"  width="300" height="300">
+        <h3>Some By Mi Glow Serum</h3>
+        <p>$54</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="9" data-name="Kiehl’s Creamy Eye Treatment with Avocado" data-price="27">
+        <img src="photos/sensitive1.jpg" class="product-img" alt="Kiehl’s Creamy Eye Treatment with Avocado"  width="300" height="300">
+        <h3>Kiehl’s Creamy Eye Treatment with Avocado</h3>
+        <p>$35</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="10" data-name="Soon Jung 5.5 Foam Cleanser by Etude House" data-price="27">
+        <img src="photos/sensitive2.jpg" class="product-img" alt="Soon Jung 5.5 Foam Cleanser by Etude House"  width="300" height="300">
+        <h3>Soon Jung 5.5 Foam Cleanser by Etude House</h3>
+        <p>$10</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="11" data-name="The Ordinary Niacinamide 10% + Zinc 1% Serum" data-price="27">
+        <img src="photos/sensitive3.jpg" class="product-img" alt="The Ordinary Niacinamide 10% + Zinc 1% Serum" width="300" height="300">
+        <h3>The Ordinary Niacinamide 10% + Zinc 1% Serum</h3>
+        <p>$6</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="12" data-name="Round Lab 1025 Dokdo Toner" data-price="27">
+        <img src="photos/sensitive4.jpg" class="product-img" alt="Round Lab 1025 Dokdo Toner" width="300" height="300">
+        <h3>Round Lab 1025 Dokdo Toner for redness</h3>
+        <p>$18</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="13" data-name="The Ordinary Natural Moisturizing Factors + HA" data-price="27">
+        <img src="photos/skin4.jpg" class="product-img" alt="The Ordinary Natural Moisturizing Factors + HA" width="300" height="300">
+        <h3>The Ordinary Natural Moisturizing Factors + HA</h3>
+        <p>$7</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="14" data-name="SKIN1004 Madagascar Centella Toning Toner" data-price="27">
+        <img src="photos/skin5.jpg" class="product-img" alt="SKIN1004 Madagascar Centella Toning Toner" width="300" height="300">
+        <h3>SKIN1004 Madagascar Centella Toning Toner for acne prone</h3>
+        <p>$22</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="15" data-name="Kiehl’s Creamy Eye Treatment with Avocado" data-price="27">
+        <img src="photos/skin6.jpg" class="product-img" alt="Kiehl’s Creamy Eye Treatment with Avocado" width="300" height="300">
+        <h3>Kiehl’s Creamy Eye Treatment with Avocado</h3>
+        <p>$35</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="16" data-name="Fresh Brown Sugar Body Polish Exfoliator" data-price="27">
+        <img src="photos/skin7.jpg" class="product-img" alt="Fresh Brown Sugar Body Polish Exfoliator" width="300" height="300">
+        <h3>Fresh Brown Sugar Body Polish Exfoliator night scrub</h3>
+        <p>$45</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="17" data-name="YSL Lash Clash Extreme Mascara" data-price="27">
+        <img src="photos/b5.jpg" class="product-img" alt="YSL Lash Clash Extreme Mascara" width="300" height="300">
+        <h3>YSL Lash Clash Extreme Mascara</h3>
+        <p>$29</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="18" data-name="Rare Beauty Liquid Foundation" data-price="27">
+        <img src="photos/b6.jpg" class="product-img" alt="Rare Beauty Liquid Foundation" width="300" height="300">
+        <h3>Rare Beauty Liquid Foundation</h3>
+        <p>$30</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="19" data-name="Chanel Les 4 Ombres Palette" data-price="27">
+        <img src="photos/b7.jpg" class="product-img" alt="Chanel Les 4 Ombres Palette" width="300" height="300">
+        <h3>Chanel Les 4 Ombres Palette</h3>
+        <p>$65</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="20" data-name="Rare Beauty Liquid Blush" data-price="27">
+        <img src="photos/b8.jpg" class="product-img" alt="Rare Beauty Liquid Blush" width="300" height="300">
+        <h3>Rare Beauty Liquid Blush</h3>
+        <p>$23</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="21" data-name="Fenty Beauty Pro Filt’r Powder" data-price="27">
+        <img src="photos/b9.jpg" class="product-img" alt="Fenty Beauty Pro Filt’r Powder" width="300" height="300">
+        <h3>Fenty Beauty Pro Filt’r Powder</h3>
+        <p>$34</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="22" data-name="MAC Matte Lipstick (2-Pack)" data-price="27">
+        <img src="photos/b10.jpg" class="product-img" alt="MAC Matte Lipstick (2-Pack)" width="300" height="300">
+        <h3>MAC Matte Lipstick (2-Pack)</h3>
+        <p>$42</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="23" data-name="Reverie Shampoo & Conditioner" data-price="27">
+        <img src="photos/s1.jpg" class="product-img" alt="Reverie Shampoo & Conditioner" width="300" height="300">
+        <h3>Reverie Shampoo & Conditioner</h3>
+        <p>$72</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="24" data-name="Briogeo Curl Charisma Duo" data-price="27">
+        <img src="photos/s2.jpg" class="product-img" alt="Briogeo Curl Charisma Duo" width="300" height="300">
+        <h3>Briogeo Curl Charisma Duo</h3>
+        <p>$52</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="25" data-name="OSEA Undaria Body Butter Jar" data-price="27">
+        <img src="photos/s3.jpg" class="product-img" alt="OSEA Undaria Body Butter Jar" width="300" height="300">
+        <h3>OSEA Undaria Body Butter Jar</h3>
+        <p>$48</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="26" data-name="Goumi Berry Sugar Body Scrub" data-price="27">
+        <img src="photos/s4.jpg" class="product-img" alt="Goumi Berry Sugar Body Scrub width="300" height="300">
+        <h3>Goumi Berry Sugar Body Scrub</h3>
+        <p>$18</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="27" data-name="Biossance Marine Cream Jar" data-price="27">
+        <img src="photos/s5.jpg" class="product-img" alt="Biossance Marine Cream Jar" width="300" height="300">
+        <h3>Biossance Marine Cream Jar</h3>
+        <p>$52</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="28" data-name="SCardamom Coffee Scrub Jar" data-price="27">
+        <img src="photos/s6.jpg" class="product-img" alt="Cardamom Coffee Scrub Jar" width="300" height="300">
+        <h3>Cardamom Coffee Scrub Jar</h3>
+        <p>$16</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="29" data-name="Herbivore Bamboo Charcoal Bar" data-price="27">
+        <img src="photos/s7.jpg" class="product-img" alt="Herbivore Bamboo Charcoal Bar" width="300" height="300">
+        <h3>Herbivore Bamboo Charcoal Bar</h3>
+        <p>$14</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="30" data-name="Real Sensation Butter Balm" data-price="27">
+        <img src="photos/s8.jpg" class="product-img" alt="Real Sensation Butter Balm" width="300" height="300">
+        <h3>Real Sensation Butter Balm</h3>
+        <p>$21</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="31" data-name="Nécessaire Body Lotion Jar" data-price="27">
+        <img src="photos/s9.jpg" class="product-img" alt="Nécessaire Body Lotion Jar" width="300" height="300">
+        <h3>Nécessaire Body Lotion Jar</h3>
+        <p>$28</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="32" data-name="Watermelon Sugar Scrub Jar" data-price="27">
+        <img src="photos/r1.jpg" class="product-img" alt="Watermelon Sugar Scrub Jar" width="300" height="300">
+        <h3>Watermelon Sugar Scrub Jar</h3>
+        <p>$16</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="33" data-name="OSEA Body Scrub " data-price="27">
+        <img src="photos/r2.jpg" class="product-img" alt="OSEA Body Scrub " width="300" height="300">
+        <h3>OSEA Body Scrub </h3>
+        <p>$27</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="34" data-name="Gory Scented Sugar Scrub" data-price="27">
+        <img src="photos/r3.jpg" class="product-img" alt="Gory Scented Sugar Scrub" width="300" height="300">
+        <h3>Gory Scented Sugar Scrub</h3>
+        <p>$50</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="35" data-name="Squalane + Marine Algae Eye Cream" data-price="27">
+        <img src="photos/r4.jpg" class="product-img" alt="Squalane + Marine Algae Eye Cream" width="300" height="300">
+        <h3>Squalane + Marine Algae Eye Cream</h3>
+        <p>$17</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="36" data-name="Cardamom + Coffee Body Scrub" data-price="27">
+        <img src="photos/r5.jpg" class="product-img" alt="Cardamom + Coffee Body Scrub" width="300" height="300">
+        <h3>Cardamom + Coffee Body Scrub</h3>
+        <p>$24</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="37" data-name="Exfoliating Soap Bars" data-price="27">
+        <img src="photos/r6.jpg" class="product-img" alt="Exfoliating Soap Bars" width="300" height="300">
+        <h3>Exfoliating Soap Bars</h3>
+        <p>$10</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="38" data-name="Real Sensation Face Cream" data-price="27">
+        <img src="photos/r7.jpg" class="product-img" alt="Real Sensation Face Cream" width="300" height="300">
+        <h3>Real Sensation Face Cream</h3>
+        <p>$45</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="3" data-name="Body Glow Whipped Cream " data-price="27">
+        <img src="photos/r8.jpg" class="product-img" alt="Body Glow Whipped Cream " width="300" height="300">
+        <h3>Body Glow Whipped Cream </h3>
+        <p>$21</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="39" data-name="Watermelon Sugar Body Scrub" data-price="27">
+        <img src="photos/r9.jpg" class="product-img" alt="Watermelon Sugar Body Scrub" width="300" height="300">
+        <h3>Watermelon Sugar Body Scrub</h3>
+        <p>$27</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="40" data-name="Rare Beauty Setting Spray" data-price="27">
+        <img src="photos/r10.jpg" class="product-img" alt="Rare Beauty Setting Spray" width="300" height="300">
+        <h3>Rare Beauty Setting Spray</h3>
+        <p>$32</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="41" data-name="Glow Recipe Watermelon Toner" data-price="27">
+        <img src="photos/r11.jpg" class="product-img" alt="Glow Recipe Watermelon Toner" width="300" height="300">
+        <h3>Glow Recipe Watermelon Toner</h3>
+        <p>$27</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="42" data-name="Charlotte Tilbury Eyeshadow Palette" data-price="27">
+        <img src="photos/n1.jpg" class="product-img" alt="Charlotte Tilbury Eyeshadow Palette" width="300" height="300">
+        <h3>Charlotte Tilbury Eyeshadow Palette</h3>
+        <p>$43</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="43" data-name="Fenty Beauty Tinted Moisturizer (Tube)" data-price="27">
+        <img src="photos/n2.jpg" class="product-img" alt="Fenty Beauty Tinted Moisturizer (Tube)" width="300" height="300">
+        <h3>Fenty Beauty Tinted Moisturizer (Tube)</h3>
+        <p>$36</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="44" data-name="Fenty Beauty Foundation (with sponge)" data-price="27">
+        <img src="photos/n3.jpg" class="product-img" alt="Fenty Beauty Foundation (with sponge)" width="300" height="300">
+        <h3>Fenty Beauty Foundation (with sponge)</h3>
+        <p>$54</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="45" data-name="Chanel Rouge Coco Lipstick" data-price="27">
+        <img src="photos/n4.jpg" class="product-img" alt="Chanel Rouge Coco Lipstick" width="300" height="300">
+        <h3>Chanel Rouge Coco Lipstick</h3>
+        <p>$93</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="46" data-name="Huda Beauty Glow Powder" data-price="27">
+        <img src="photos/n5.jpg" class="product-img" alt="Huda Beauty Glow Powder" width="300" height="300">
+        <h3>Huda Beauty Glow Powder</h3>
+        <p>$64</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="47" data-name="Nude Eyeshadow Palette" data-price="27">
+        <img src="photos/n6.jpg" class="product-img" alt="Nude Eyeshadow Palette" width="300" height="300">
+        <h3>Nude Eyeshadow Palette</h3>
+        <p>$30</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="48" data-name="Dior Highlighter Compact " data-price="27">
+        <img src="photos/n7.jpg" class="product-img" alt="Dior Highlighter Compact " width="300" height="300">
+        <h3>Dior Highlighter Compact </h3>
+        <p>$80</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="49" data-name="Chanel Vitalumière Foundation " data-price="27">
+        <img src="photos/n8.jpg" class="product-img" alt="Chanel Vitalumière Foundation " width="300" height="300">
+        <h3>Chanel Vitalumière Foundation </h3>
+        <p>$102</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+      <div class="product" data-id="50" data-name="Rare Beauty Liquid Concealer " data-price="27">
+        <img src="photos/n9.jpg" class="product-img" alt="Rare Beauty Liquid Concealer " width="300" height="300">
+        <h3>Rare Beauty Liquid Concealer </h3>
+        <p>$60</p>
+        <button class="add-to-cart">Add to Bag</button>
+      </div>
+
+  </main>
+  <br>
+  <div class="hyper">
+    <a href="home.html" class="hyper">return</a>
+    </div>
+    <br><br>
+    <script src="javascript/logout.js"></script>
+    <script src="javascript/home.js"></script>
+    <script src="javascript/search.js"></script>
+
+</body>
+</html>

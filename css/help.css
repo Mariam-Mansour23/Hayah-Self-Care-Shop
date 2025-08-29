@@ -1,0 +1,31 @@
+sbody{
+    background-color:#F9F5E7;
+}
+h1{
+text-align: center;
+color: #4E2209;
+background-color: #f5ead7;
+font-size: 40px;
+}
+h2{
+text-align: center;
+color: #4E2209;
+font-size: 25px;
+}
+h3{
+    text-align: center;
+    color: #4E2209; 
+background-color: #f5ead7;
+font-size: 35px;
+}
+h4{
+    text-align: left;
+    color: #4E2209;
+    font-size: 25px;
+
+}
+p{
+    text-align: justify;
+    color: #4E2209;
+    font-size: 20px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width ,intial-scale:1.0" />
+    <meta name="author" content="Malak Shady , Hana Yehia , Mariam Mansour" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/haryy.css"/>
+    <div class="notification-bar">
+      <marquee>Free shipping on orders over $50 • Coming soon: Laneige lip balms!</marquee>
+    </div>
+</head>
+<header class="header">
+  <div class="hamburger" id="hamburger">&#9776;</div>
+  <div class="header-right">
+    <input type="text" placeholder="SEARCH" class="search-box" id="searchInput"/>
+    <a href="signin.html">LOG IN</a>
+    <a href="help.html">HELP</a>
+    <a href="cart.html">SHOPPING BAG [0]</a>
+  </div>
+</header>
+
+<aside class="side-menu" id="sideMenu">
+  <div class="close-btn" id="closeBtn">&times;</div>
+  <div class="logo">Hayah</div>
+  <nav class="menu-links">
+    <a href="#">View all</a>
+    <a href="SkinCare.html">skin care</a>
+    <a href="BodyCare.html">body care</a>
+    <a href="HairCare.html">hair care</a>
+    <a href="Beauty.html">beauty</a>
+    <hr />
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="queries.html">Queries</a>
+    <a href="#" onclick="confirmLogout()">Logout</a>
+  </nav>
+</aside>
+<h1>Welcome to Hayah!</h1>
+<body>
+    <div class="background">
+        <div class="signup-box">
+            <h2>Sign up</h2>
+            <h5>Join Our Self-Care Community ♡</h5>
+            <form name="regForm" onsubmit="return validation()">
+                <!--method="post" results an HTTP Error 405.5-->
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name"><br />
+                <!--Removed required attribute since it prevents validate function from executing correctly-->
+                <!--Changing the input type from email to text so that validate() function execute properly-->
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" placeholder="you@example.com"><br />
+
+                <div class="password-wrapper">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" autocomplete="new-password" placeholder="Create a password"><br />
+
+                    <div class="strength">
+                        <div id="strengthValue"></div>
+                    </div>
+                    <p id="strengthText" style="color: #4E2209;"></p>
+                </div>
+                
+
+                <label for="confirmPassword">Confirm password</label> <!--invalid to use label for password and cause confusion-->
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password"><br />
+
+                <label>Gender  </label>
+                <input type="radio" name="gender" value="female" id="female"><label for="female">Female </label> <!--LABEL 5-->
+                <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label><br /> <!--LABEL 6-->
+
+                <label for="birthdate">Date of Birth</label>
+                <input type="date" id="birthdate" name="birthdate"><br />
+
+                <label for="interest">Your Favorite Self-Care Activity</label>
+                <select id="interest" name="interest">
+                    <option value="" selected disabled>--Select One--</option>
+                    <option value="meditation">Drinking Herbal Tea</option>
+                    <option value="skincare">Aromatherapy / Essential Oils</option>
+                    <option value="yoga">Spa Day at Home</option>
+                    <option value="journaling">Journaling</option>
+                    <option value="bubblebaths">Bubble Baths</option>
+                </select><br />
+
+                <label>Subscribe to:</label> <!--Labels 9,10,11-->
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Newsletter</label>
+                <input type="checkbox" id="offers" name="offers">
+                <label for="offers">Special Offers</label><br /><br />
+
+                <label for="bio">Tell us about your self-care journey</label><br />
+                <textarea id="bio" name="bio" cols="50" rows="3" placeholder="I started my self-care routine with..."></textarea><br />
+
+                <label for="photo">Upload Your Profile Photo</label><br />
+                <input type="file" id="photo" name="photo" accept="image/*"><br />
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <br /><p>Already have an account?</p>
+            <a href="signin.html">Log in!</a>
+            <br><br>
+            <div class="hyper">
+                <a href="home.html" class="hyper">return</a>
+                <link rel="stylesheet" href="css/new.css" />
+            </div>
+        </div>
+    </div>
+    <script src="javascript/signup.js"></script> <!--!!!!!!!!!!-->
+</body>
+</html>

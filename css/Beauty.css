@@ -1,0 +1,144 @@
+body {
+    background-color: #F9F5E7;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    /* border-bottom: 1px solid #ccc; <-- removed */
+  }
+  .header {
+    border-bottom: none;
+  }
+  .fontHeader{
+    text-align: center;
+   margin-top: 20px;
+ }
+ .fontHeader h1{
+   font-family:ambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 50px;
+   color: #4a2c1d;
+   margin-bottom: 10px;
+ }
+ .fontHeader{
+   font-family:ambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 25px;
+   color: #333;
+   max-width: 800px;
+   margin: 0 auto;
+ }
+  .slideshow-container {
+    max-width:35%;
+    border-radius: 50px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.2s;
+  }
+  
+  @keyframes fade {
+    from {opacity: 0.5}
+    to {opacity: 1}
+  }
+  
+  .dots-container {
+    text-align: center;
+    padding: 10px;
+    background-color: #F9F5E7;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #4E2209;
+    border-radius: 20%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #99694B;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#F9F5E7;
+  }
+  
+  header {
+    font-family: ambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 1em;
+    background-color: #F9F5E7;
+    font-size: 1.5em;
+    color:#4E2209;
+  }
+  
+  .beautys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+    justify-items: center;
+  }
+  
+  .beauty {
+    padding: 15px;
+    border: 5px solid #F9F5E7;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .beauty-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  button.add-to-cart {
+    margin-top: 2px;
+    padding: 15px 20px;
+    background-color:#4E2209;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .beauty-img {
+    transition: transform 0.3s ease;
+  }
+  
+  .beauty:hover .beauty-img {
+    transform: scale(1.1);
+  }
+  button.add-to-cart:hover{
+    color: #F9F5E7;
+    padding: 15px 20px;
+    font-size:90%;
+    transition:0.3s;
+  }
+  
+  
+  
+  
+  

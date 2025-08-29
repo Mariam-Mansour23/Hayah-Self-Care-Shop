@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f5f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logout-btn {
+  color: #8b3a3a;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #8b3a3a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #fff0f0;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #ffeaea;
+}
+
+/* Popup Styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.popup-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.popup-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popup-buttons button:first-child {
+  background-color: #d9534f;
+  color: white;
+}
+
+.popup-buttons button:last-child {
+  background-color: #f0f0f0;
+  color: black;
+}

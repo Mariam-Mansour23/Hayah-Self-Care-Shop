@@ -1,0 +1,35 @@
+body{
+    background-color:#F9F5E7;
+}
+h1{ /*queiries*/ /*hair care*//*body care*/
+text-align: center;
+color: #4E2209;
+}
+h2{ /*queiries*/ /*hair care*//*body care*/
+text-align: center;
+color: #4E2209;
+}
+.hyper a{ /*queiries*/ /*hair care*//*body care*/
+    margin: 15px;
+font-size: 18px;
+text-decoration: none;
+color: #C6A196;
+padding: 8px 16px;
+border: 2px #F9F5E7  ;
+border-radius: 5px;
+transition: all 0.3s ease;
+
+
+}
+.hyper{ /*queiries*/ /*hair care*//*body care*/
+    text-align: center;
+    font-size: 10px;
+}
+.hyper a:hover{ /*queiries*/ /*hair care*/ /*body care*/ /*help*/ /*about*/
+    color: #F9F5E7 ;
+    background-color: #4E2209;
+    border-color: #4E2209;
+    transition: 2s;
+    padding-inline: 100px;/*lma badous 3aleha betrouh yemin aw shemal aw tekbar 3ala hasab ana mekhtara eh */
+    border-radius: 100px;
+}
